@@ -47,7 +47,16 @@
     
   });
 
-  window.__canvasWM = __canvasWM;
+  // 为了兼容不同的环境
+  if (typeof module != 'undefined' && module.exports) {  //CMD
+    module.exports = __canvasWM;
+  } else if (typeof define == 'function' && define.amd) { // AMD
+    define(function () {
+      return __canvasWM;
+    });
+  } else {
+    window.__canvasWM = __canvasWM;
+  }
 })();
 
 // 调用
