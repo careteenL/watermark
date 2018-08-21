@@ -1,0 +1,28 @@
+{
+  "name": "ct-watermark",
+  "version": "1.0.2",
+  "description": "基于canvas生成水印",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "canvas",
+    "watermark",
+    "水印",
+    "安全"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/careteenL/watermark.git"
+  },
+  "author": "careteen <15074806497@163.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/careteenL/watermark/issues"
+  },
+  "homepage": "https://github.com/careteenL/watermark#readme"
+}
