@@ -1,6 +1,6 @@
 {
   "name": "ct-watermark",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "基于canvas生成水印",
   "main": "src/index.js",
   "directories": {
@@ -20,7 +20,7 @@
     "url": "git+https://github.com/careteenL/watermark.git"
   },
   "author": "careteen <15074806497@163.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/careteenL/watermark/issues"
   },
