@@ -1,6 +1,6 @@
 {
-  "name": "ct-watermark",
-  "version": "1.0.3",
+  "name": "@careteen/watermark",
+  "version": "1.0.4",
   "description": "基于canvas生成水印",
   "main": "src/index.js",
   "directories": {

@@ -13,12 +13,11 @@
 ### Usage
 
 ```bash
-npm install ct-watermark --save-dev
+npm i @careteen/watermark -D
 ```
 then
 ```js
-import waterMark from 'ct-watermark'
-
+import waterMark from '@careteen/watermark'
 waterMark({
   type: 'page',
   content: 'careteen'
@@ -60,4 +59,3 @@ waterMark({
 
 - svg 生成水印
 - NodeJs 生成水印
-### 引用
